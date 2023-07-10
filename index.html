@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X-men</title>
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/estilos.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="imagens/logo.svg" alt="Logo x-men" srcset="">
+    </header>
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo">Selecione um personagem</h1>
+            <ul class="lista-de-personagem">
+                <li class="personagem selecionado" id="ciclope" data-name="Ciclope"
+                 data-description="Scott Summers também chamado de ciclope, tem o
+                 poder de disparar rajadas ópticas de pura energia na cor rubi.">
+                    <img src="imagens/card-ciclope.jpg" alt="Personagem ciclope">
+                </li>
+                
+                 <li class="personagem" id="jean-grey" data-name="Jean Grey" 
+                 data-description="Jean Grey é uma mutante nivel ômega e o principal avatar
+                 da Força Fênix, no qual manifesta poderes cósmicos. A telepatia e a telecinese.">
+                    <img src="imagens/card-jean-grey.jpg" alt="Personagem jean grey">
+                </li>
+
+                 <li class="personagem" id="lince-negra" data-name="Lince Negra"
+                  data-description="Seu poder é a intangibilidade. Isso permite ela
+                  atravessar qualquer superfície sólida.">
+                    <img src="imagens/card-lince-negra.jpg" alt="Personagem lince negra">
+                </li>
+
+                 <li class="personagem" id="tempestade" data-name="Tempestade"
+                  data-description="Em outras palavras é uma bruxa do tempo. Ela é
+                  capaz de manipular o tempo, alterar a pressão atmosférica e temperatura.">
+                    <img src="imagens/card-tempestade.jpg" alt="Personagem tempestade">
+                </li>
+
+                <li class="personagem" id="vampira" data-name="Vampira"
+                  data-description="É capaz de absorver a energia vital 
+                  e os poderes de outros mutantes.">
+                    <img src="imagens/card-vampira.jpg" alt="Personagem vampira">
+                </li>
+
+                <li class="personagem" id="wolverine" data-name="Wolverine"
+                  data-description="Com um esqueleto de Adamantium, garras indestrutíveis,
+                  um fator de cura acelerado e um envelhecimento desacelerado.">
+                    <img src="imagens/card-wolverine.jpg" alt="Personagem wolverine">
+                </li>
+        
+
+                 <li class="personagem" id="noturno" data-name="Noturno"
+                  data-description="Kurt Wagner pode se teletransportar para
+                  qualquer lugar e ótimo em combate corpo a corpo.">
+                    <img src="imagens/card-noturno.jpg" alt="Personagem noturno">
+                </li>
+
+                 <li class="personagem" id="magneto" data-name="Magneto"
+                  data-description="Apesar de velho é muito poderoso. Sua habilidade
+                  o permite criar campos magneticos e manipular os metais.">
+                    <img src="imagens/card-magneto.jpg" alt="Personagem magneto">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="imagens/card-ciclope.png" alt="Personagem Selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Ele tem poder de disparar
+                    rajadas ópticas por um acidente que aconteceu com ele quando criança,mas não 
+                    consegue controlá-los.
+                </p>
+            </div>
+
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
